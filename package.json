@@ -2,6 +2,6 @@
   "name": "flowise-app",
   "version": "1.0.0",
   "scripts": {
-    "start": "flowise start"
+    "start": "npx flowise start"
   }
 }
