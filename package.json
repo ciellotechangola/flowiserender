@@ -2,6 +2,6 @@
   "name": "flowise-app",
   "version": "1.0.0",
   "scripts": {
-    "start": "npx flowise start --port $PORT --host 0.0.0.0"
+    "start": "FLOWISE_PORT=$PORT npx flowise start --host 0.0.0.0"
   }
 }
