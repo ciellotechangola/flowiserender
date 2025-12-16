@@ -3,7 +3,10 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "start": "flowise start"
+    "start": "flowise start --port 3000"
+  },
+  "engines": {
+    "node": "18.x"
   },
   "dependencies": {
     "flowise": "^1.8.0"
